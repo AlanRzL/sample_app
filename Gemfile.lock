@@ -185,6 +185,7 @@ DEPENDENCIES
   database_cleaner!
   factory_girl_rails (= 4.2.0)
   faker (= 1.1.2)
+  i18n
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
   pg (= 0.15.1)
