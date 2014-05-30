@@ -11,6 +11,7 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'pg', '0.15.1'
 gem 'i18n'
+gem 'therubyracer'
 
 group :development, :test do
   #gem 'sqlite3', '1.3.8'
@@ -33,7 +34,7 @@ group :test do
   # gem 'growl', '1.0.3'
 
   # Uncomment these lines on Linux.
-  # gem 'libnotify', '0.8.0'
+  gem 'libnotify', '0.8.0'
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
